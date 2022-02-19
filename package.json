@@ -1,8 +1,8 @@
 {
-  "name": "MAALUTTY_V3",
+  "name": "munu sir bot",
   "version": "7.3.6",
-  "description": "maalutty is the Modified Version of WhatsAsena, Made By @nijin-husni with Baileys.",
-  "main": "./MAALUTTY_V3/bot.js",
+  "description": "munu sir is the Modified Version of WhatsAsena, Made By @nijin-husni with Baileys.",
+  "main": "./MR_V3/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
