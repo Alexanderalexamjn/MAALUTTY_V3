@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Maalutty*:  ```" + msg + "```"
+    return "✅ *Munusir*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Maalutty*:  ```" + msg + "```"
+    return "🛑 *Munusir*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Maalutty*:  ```" + msg + "```"
+    return "⏺️ *Munusir*:  ```" + msg + "```"
 }
 
 
