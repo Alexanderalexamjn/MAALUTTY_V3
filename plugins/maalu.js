@@ -1,4 +1,4 @@
-const Maalutty = require('../events');
+const мυиανιя = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -11,7 +11,7 @@ var ddd = ggg.toString('utf-8')
 
 let whb = Config.WORKTYPE == 'public' ? false : true
 
-Maalutty.addCommand({pattern: 'maalutty', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+Maalutty.addCommand({pattern: 'ᴍᴜɴᴜꜱɪʀ', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
 // send a buttons message!
     var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -21,13 +21,13 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
 
         {buttonId: 'id1', buttonText: {displayText: 'PODA😏'}, type: 1},
         {buttonId: 'id2', buttonText: {displayText: 'NJAN MANDAN ONNUMALLA😝'}, type: 1},
-        {buttonId: 'id3', buttonText: {displayText: '💝OWNER💝 \n\n```creater Husni and nijin```\n\n```owner number wa.me/917025868709```\n\n```owner number wa.me/919446672120```\n\n```whatsapp group : https://chat.whatsapp.com/KJWUNpT7lBzDuPGnlV69Vp```\n\n\n'  }, type: 1},
+        {buttonId: 'id3', buttonText: {displayText: '💝OWNER💝 \n\n```creater munavir```\n\n```owner number wa.me/918590822912```\n\n```owner number wa.me/919074778553```\n\n```whatsapp group : https://chat.whatsapp.com/KJWUNpT7lBzDuPGnlV69Vp```\n\n\n'  }, type: 1},
 
       ]
       
       const buttonMessage = {
           contentText: 'Eda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda😂 ',
-          footerText: '©ꪶ͢ʜᴜsɴɪ ÂÑD ɴɪᴊɪɴꫂ™',
+          footerText: '©ꪶ͢мυиανιяꫂ™',
           buttons: buttons,
           headerType: 1
       }
