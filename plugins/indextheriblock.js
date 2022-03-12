@@ -1,5 +1,5 @@
 /* COPYRIGHT © HISHAN-SOPHIA
-   RE-CODED - nijin-husni
+   RE-CODED - munu-sir
 */
 const Hisham = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -9,8 +9,8 @@ const fs = require('fs');
 const Config = require('../config')
 
 // Inbox Block System
-// This Plugins By Hisham Muhammed 
-const INBO1 = "_~~~••• MAALUTTY •••~~~_* \n\n\n *i am blocking you.* \n\n *REASON:EDA MWONE DONT USE BAD WORDS ENNE POLE NALLA KUTTI AAV* 😌 *NINNE NJAN BLOCK AAKUKAYAAN THERI ITTATH KOND* 🖐🏻🖐🏻"
+// This Plugins By Munavir
+const INBO1 = "_~~~••• ᴍᴜɴᴜꜱɪʀ •••~~~_* \n\n\n *i am blocking you.* \n\n *REASON:EDA MWONE DONT USE BAD WORDS ENNE POLE NALLA KUTTI AAV* 😌 *NINNE NJAN BLOCK AAKUKAYAAN THERI ITTATH KOND* 🖐🏻🖐🏻"
  if (Config.INBO1 == 'true') {
 Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
         let regexb1ichu = new RegExp('thayoli')
