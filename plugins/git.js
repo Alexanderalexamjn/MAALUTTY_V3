@@ -1,16 +1,16 @@
-/* Copyright (C) nijin-husni
+/* Copyright (C) munu-sir
 Mwonu credits kalayalle
-Maalutty-nijin-husni
+ᴍᴜɴᴜꜱɪʀʙᴏᴛ-munavir
 */
 
-const Maalutty = require('../events');
+const MUNU SIR  = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+MUNU SIR .addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -22,28 +22,26 @@ Maalutty.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (mess
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `◄━⦁💝 MAALUTTY_V3💝⦁━►
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `◄━⦁💝 MUNU SIR _V3💝⦁━►
 
-
-*owner number husni* :https://wa.me/917025868709.
             
 
-*owner number Nijin* :https://wa.me/919605385305.
+*owner number * :https://wa.me/918590822912
 
 
-*owner id instagram* :https://instagram.com/_husni_ser_.
+*owner id instagram* :https://instagram.com/munavir__x__
 
 
-*github* : https://github.com/nijin-husni/MAALUTTY_V3.
+*github* : https://github.com/Alexanderalexamjn/MUNU
 
 
-*audio commands* :https://github.com/nijin-husni/media/tree/main/bgm.
+*audio commands* :https://github.com/munu-siri/media/tree/main/bgm.
 
 
-*sticker commands* :https://github.com/nijin-husni/media/tree/main/stickers.
+*sticker commands* :https://github.com/munu-sir/media/tree/main/stickers.
 
-◄━⦁💝 MAALUTTY_V3💝⦁━►
-■□ ~NIJIN~ AND ~HUSNI~■□ 
+◄━⦁💝 MUNU SIR _V3💝⦁━►
+■□ Munavir~■□ 
 
 `}) 
 
